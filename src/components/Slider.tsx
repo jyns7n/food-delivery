@@ -39,7 +39,9 @@ const Slider = () => {
         <h1 className='text-xl text-center uppercase p-4 md:p-10 md:2xl xl:text-3xl'>
           {data[currentSlide].title}
         </h1>
-        <button className='bg-red-500 text-white py-4 px-8'>Order Now</button>
+        <button className='bg-red-500 text-white py-4 px-8 rounded-md'>
+          Order Now
+        </button>
       </div>
       {/* IMAGE CONTAINER */}
       <div className='w-full relative flex-1 '>
